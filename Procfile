@@ -1,1 +1,1 @@
-web: gunicorn flask_api_copy:app
+web: sh setup.sh && streamlit run app.py
