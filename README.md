@@ -1,4 +1,4 @@
-# Dockerised EndtoEnd_Machine-Learning-projet using Flasgger and Streamlit
+# Dockerised EndtoEnd_Machine-Learning-projet using Flasgger and Streamlit and deployed in HEROKU
 
 ## Tools used : `python`, `Flask`, `Docker`, `Streamlit`.
 
@@ -12,6 +12,8 @@
 - Dockerised the entire project.
 - Then, to take it next level [Streamlit](https://github.com/raghu826/EndtoEnd_Machine-Learning-projet/blob/master/Streamlit.JPG) comes into picture.
 - Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. In just a few minutes you can build and deploy powerful data apps
+
+#### You can find the api deployed on `heroku` with the address [banknote-api](https://banknote-api.herokuapp.com/)
 
 
 
