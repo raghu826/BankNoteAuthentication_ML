@@ -21,7 +21,7 @@ model = pickle.load(pickle_in)
 
 
 
-@app.route('/',methods=["Get"])
+@app.route('/')
 def predict_note_authentication():
     
     """Let's Authenticate the Banks Note 
