@@ -18,12 +18,10 @@ Swagger(app)
 pickle_in = open('model.pkl', 'rb')
 model = pickle.load(pickle_in)
 
-@app.route('/')
-def welcome():
-    return "Welcome all hello world"
 
 
-@app.route('/predict',methods=["Get"])
+
+@app.route('/',methods=["Get"])
 def predict_note_authentication():
     
     """Let's Authenticate the Banks Note 
